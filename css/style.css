@@ -1,0 +1,76 @@
+body{
+  background-image: url(https://1.bp.blogspot.com/-2wyXEHIdFxk/Xqz-dGH9wRI/AAAAAAAAO00/8c63ob4vtsIBoTrSfT9YbKcSPVKVLzkIgCLcBGAsYHQ/s1600/money%2Bheist%2Bla%2Bcasa%2Bde%2Bpapel%2Bfondo%2Bde%2Bpantana%2Bwallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*{
+  color: white;
+  margin:0;
+}
+.header{
+background-image:url();
+background-repeat: no-repeat;
+background-position: center;
+background-size: 800px;
+text-align: center;
+height:400px;
+width: auto;
+text-decoration: none;
+margin-top: 0;
+
+
+}
+nav{
+  background-color: rgba(103,7,5,255);
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  padding:10px;
+  text-decoration: none;
+margin-top: 0px;
+opacity: 100%;
+
+}
+.navlink{
+font-family: 'Bebas Neue', cursive;
+  color:white;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 10px;
+  bottom: 4px;
+  position: relative;
+}
+.homelink img{
+  margin:3px;
+  width:20%;
+  text-decoration: none;
+
+
+}
+
+.container2{
+  display:grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 40px 40px 200px 40px;
+
+}
+
+.container2{
+
+}
+
+.seasons{
+  width: 30vw;
+  margin: auto;
+  display: flex;
+}
+
+.seasons img{
+  object-fit: contain;
+  width: 50%;
+}
+
+.seasons p{
+  margin: 20px;
+  width:60%;
+}

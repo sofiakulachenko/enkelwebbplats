@@ -1,0 +1,38 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-template-rows: 500px;
+grid-gap: 15px;
+margin: 10%;
+}
+.castmember img{
+width: 100%;
+}
+.castmember{
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+}
+.castmember h2{
+  position: absolute;
+  vertical-align: middle;
+  line-height: 215%;
+  background-color: black;
+  bottom: 0;
+  width:100%;
+  margin-bottom: 0;
+  text-align: center;
+  -webkit-transition:0.3s;
+  height: 50px;
+font-family: 'Bebas Neue', cursive;
+  color:white;
+  text-decoration: none;
+
+}
+
+.castmember h2:hover{
+  height:30%;
+  -webkit-transition:0.3s;
+  transition-timing-function: ease;
+
+}
